@@ -9,9 +9,11 @@ player_file = 'rocket.png'
 enemy_file = 'ufo.png'
 bullet_file = 'bullet.png'
 missile_file = 'missile2.png'
+color = (255, 255, 255)
 
 win_height = 700
 win_width = 500
+print("Ukuran window", win_width, win_height)
 
 font.init()
 font1 = font.Font(None, 25)
